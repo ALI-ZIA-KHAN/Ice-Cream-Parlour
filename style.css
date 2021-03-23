@@ -1,0 +1,268 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+#header{
+    width: 100%;
+    height:80px;
+    background-color: gainsboro;
+
+}
+#logo-cn{
+     float: left;
+     width:35%;
+     height: auto;
+     margin:3px;
+     padding-top: 4px;
+     padding-left: 5px;
+     
+}
+#div_nav{
+    float:right;
+    height:100%;
+    width:64%;
+}
+#nav_items{
+    height: 50%;
+    text-align: center;
+    margin-top:25px;
+    margin-bottom:15px;
+}
+#nav_items>li{
+   display: inline-block;
+   padding-left: 4%;
+   padding-right: 4%;
+}
+#nav_items>li>a{
+    text-decoration: none;
+    color:black;
+    font-size: 24px;
+}
+#nav_items>li>a:hover{
+    color:palevioletred;
+}
+#mainpic{
+    /* border-style: solid;
+    border-width: 2px 2px; */
+    /* border-color: purple; */
+    height: 600px;
+    width: 100%;
+}
+#pics{
+    width:100%;
+    height:100%
+}
+#div_2{
+    height:230px;
+    width: 100%;
+    background-color:pink;
+     display: flex; 
+}
+#div_after_main{
+   
+    padding-left:50px;
+    padding-top:30px;
+    height: 100%;
+    width:65%;
+    background-color:#ebe7e8;
+}
+
+#pink_para{
+    color:rgb(216, 34, 95);
+    margin-top:5px;
+    margin-bottom: 22px;
+    
+}
+#new-prod{
+    margin-top:3px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+.paras{
+    margin-top: 5px;
+}
+#small_pic_div{
+    width:35%;
+    height:auto;
+}
+#sec_pic{
+    width:100%;
+    height: 100%;
+}
+
+#footer{
+    height:180px;
+    width:100%;
+    background-color: #c8c10e;
+    display: inline-flex;
+}
+#first-sec
+{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+}
+#third-fourth{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+}
+#first, #second {
+    width: 40%;
+    height: 100%;
+
+}
+
+#third, #fourth{
+ 
+    width: 40%;
+    height: 100%;
+
+}
+#first-img{
+    
+   
+    height:89%;
+    width: 50%;
+    margin: 5% auto;
+    padding-top: 10%;
+
+}
+
+ #in_11 , #in_1{
+     width: 100%;
+     text-align: center;
+     color: #ebe7e8; 
+     font-weight: bolder;   
+}
+#second-img{
+    height:89%;
+    width: 50%;
+    margin: 5% auto;
+    padding-top: 10.5%;
+}
+
+#in_22 , #in_2{
+    width: 100%;
+     text-align: center; 
+     color: #ebe7e8; 
+     font-weight: bolder;
+}
+#third-img{
+    height:89%;
+    width: 50%;
+    margin: 5% auto;
+    padding-top: 10%;
+
+
+}
+#in_33 , #in_3{
+    width: 100%;
+     text-align: center; 
+     color: #ebe7e8; 
+     font-weight: bolder;
+}
+
+#fourth-img{
+    height:89%;
+    width: 50%;
+    margin: 5% auto;
+    padding-top: 10%;
+
+
+}
+#in_44 , #in_4{
+    width: 100%;
+     text-align: center;
+     color: #ebe7e8; 
+     font-weight: bolder; 
+}
+
+@media only screen and (max-width: 600px){
+    #header{
+        width: 100%;
+        height:auto;
+        margin-top: 0%;
+        margin-bottom: 0%;
+        overflow: hidden;
+    }
+
+    #logo-cn{
+        float: none;
+        margin:2% auto;
+        width:50%;
+        height: auto;
+        margin-bottom:0%;
+       
+     padding-left: 5%;
+        
+        
+        
+   }
+   #div_nav{
+       float:none;
+       height:100%;
+       width:100%;
+       margin-top: 0%;
+   }
+   #nav_items{
+       height: 50%;
+       
+   }
+   #nav_items>li{
+      display: block;
+      margin-top: 3px;
+      margin-bottom: 3px;
+     
+   }
+   #nav_items>li>a{
+      
+       font-size: 16px;
+   }
+   #mainpic{
+  
+    height: 450px;
+    margin-top: 0%;
+   }
+   #div_2{
+    height:auto;
+    width: 100%;
+     display: block; 
+     background-color: #ebe7e8;
+}
+
+    #div_after_main{
+   
+        padding-left:50px;
+        padding-top:30px;
+        height: auto;
+        width:100%;
+        
+    
+    }
+    #small_pic_div{
+        width:100%;
+        height:auto;
+    }
+    #sec_pic{
+        height: 100%;
+        
+    }
+    #footer{
+        height:auto;
+        display: block;
+    }
+    #first-sec
+{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+#third-fourth{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+}
